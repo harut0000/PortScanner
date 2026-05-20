@@ -33,7 +33,7 @@ class Program
         Console.WriteLine(@"██║     ╚██████╔╝██║  ██║   ██║   ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║");
         Console.WriteLine(@"╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝");
 
-        Console.ResetColor();
+        Console.ResetColor(); // * "Welcome to portscanner" ist generiert mit ChatGPT
 
         Console.ReadKey();
     }
