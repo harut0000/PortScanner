@@ -13,7 +13,7 @@ namespace ConsoleApp1
         {
             
             public int Nummer { get; private set; } //private: das Port darf nur lesbar sein, nicht überschreibbar.
-            public PortStatus Status { get; private set; } //Objekt: Status
+            public PortStatus Status { get; private set; } //Konstruktor
             public Port(int nummer) // Methode, die jedem Port eine Nummer und eine Status gibt.
             {
                 Nummer = nummer;
