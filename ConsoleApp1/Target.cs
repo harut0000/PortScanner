@@ -7,34 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-//Erstelle eine Klasse Target mit:
-//🔹 Properties
 
-//Address(string)
-
-//public get
-//private set
-
-
-//Name(string)
-
-//public get
-//private set
-
-
-
-//🔹 Konstruktor
-
-//mindestens ein Parameter: address
-//optional: name
-//setzt die Properties sinnvoll
-
-//🔹 Regeln
-
-//❌ keine Scanner‑Logik
-//❌ keine Methoden außer Konstruktor
-//✅ saubere Kapselung
-//✅ eigene Datei Target.cs (empfohlen)
 namespace PortScanner
 {
     public class Target
