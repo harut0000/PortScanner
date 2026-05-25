@@ -1,8 +1,8 @@
 ﻿using System;
-
+namespace PortScanner;
 class Program
 {
-    static void Main()
+    static void Willkommen()
     {
         Console.ForegroundColor = ConsoleColor.Green;
 

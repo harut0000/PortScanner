@@ -1,4 +1,4 @@
-﻿using ConsoleApp1;
+﻿using PortScanner;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +12,14 @@ namespace PortScanner
 {
     public class Target
     {
-       public string Name { get; private set; }
-        public string Adresse { get; private set; }
-        public Target(string target_name, string target_adresse)
+       public string Name { get; private set; } // get - ablesbar. private set - von außen nicht überschreibbar.
+        public string Adresse { get; private set; } // get - ablesbar. private set - von außen nicht überschreibbar.
+        public Target(string target_name, string target_adresse) // Jeder Target bekommt einen Namen und eine Adresse.
         {
             Name = target_name;
             Adresse = target_adresse;
         }
-        Target t = new Target("localhost", "127.0.0.1");
+
 
 
     }
