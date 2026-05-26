@@ -1,8 +1,8 @@
 ﻿using System;
 namespace PortScanner;
-class Program
+public class Program
 {
-    static void Willkommen()
+    public static void Willkommen()
     {
         Console.ForegroundColor = ConsoleColor.Green;
 
@@ -35,6 +35,6 @@ class Program
 
         Console.ResetColor(); // * "Welcome to portscanner" ist generiert mit ChatGPT
 
-        Console.ReadKey();
+        
     }
 }
