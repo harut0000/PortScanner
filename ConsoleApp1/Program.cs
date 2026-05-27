@@ -33,8 +33,18 @@ public class Program
         Console.WriteLine(@"██║     ╚██████╔╝██║  ██║   ██║   ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║");
         Console.WriteLine(@"╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝");
 
-        Console.ResetColor(); // * "Welcome to portscanner" ist generiert mit ChatGPT
+
+
+
+
+
+        Console.ResetColor();
+
+    }
+
+}
+
+    // * "Welcome to portscanner" ist generiert mit ChatGPT
 
         
-    }
-}
+    
